@@ -1,0 +1,38 @@
+[
+	{
+		"title": "Escuadra",
+		"price": 123.45,
+		"thumbnail": "https://cdn2.iconfinder.com/data/icons/draw-and-design/512/esquadra-2-256.png",
+		"id": 1
+	},
+	{
+		"title": "calculadora",
+		"price": 234.56,
+		"thumbnail": "https://cdn3.iconfinder.com/data/icons/seo-43/512/Calcolator-256.png",
+		"id": 2
+	},
+	{
+		"title": "Globo terraqueo",
+		"price": 420.23,
+		"thumbnail": "https://cdn3.iconfinder.com/data/icons/vol-3/128/globe-256.png",
+		"id": 3
+	},
+	{
+		"title": "Tijera",
+		"price": "89",
+		"thumbnail": "https://cdn0.iconfinder.com/data/icons/hairdressing-3/512/as449_14-256.png",
+		"id": 4
+	},
+	{
+		"title": "k",
+		"price": "2",
+		"thumbnail": "k",
+		"id": 5
+	},
+	{
+		"title": "l",
+		"price": "2",
+		"thumbnail": "www.google.com",
+		"id": 6
+	}
+]
