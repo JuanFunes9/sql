@@ -25,12 +25,14 @@ app.set( 'views', __dirname + '/views' );
 
 //websockets:
 let date = new Date();
-let messages ;
-sqlite.getAll().then( data => messages = data );
+
 
 io.on( 'connection', ( socket ) => {
   console.log( 'Usuario conectado, ID: ' + socket.id );
-	socket.emit( 'messages', messages );
+
+  sqlite.getAll().then( messages => {
+    socket.emit( 'messages', messages );
+  } );
 
 	socket.on( 'newMessage', ( newMessage ) => {
 		sqlite.newMessage( newMessage )
